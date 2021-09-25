@@ -1,0 +1,80 @@
+.wrapper {
+  overflow-y: auto;
+  max-height: 60vh;
+}
+.table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+.table thead th {
+  background-color: aliceblue;
+  padding: 15px;
+}
+.table tr td {
+  padding: 15px;
+}
+.no {
+  width: 10%;
+}
+.nama-makanan {
+  width: 35%;
+}
+.jumlah {
+  width: 15%;
+}
+.harga {
+  width: 20%;
+}
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+.footer > div {
+  width: 30%;
+}
+.total {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+.actions button {
+  margin: 0 5px;
+  font-size: 16px;
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .actions button {
+    margin: 0 5px;
+    font-size: 14px;
+  }
+  .total {
+    padding: 0 5px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .total p {
+    font-size: 14px;
+  }
+  .footer > div {
+    width: 70%;
+  }
+  .table thead th {
+    padding: 5px;
+    font-size: 14px;
+  }
+  .table tr td {
+    padding: 5px;
+    font-size: 14px;
+  }
+}

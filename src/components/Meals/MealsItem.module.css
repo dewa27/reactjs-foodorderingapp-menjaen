@@ -1,0 +1,50 @@
+.meals-wrapper {
+  flex: 0 1 100%;
+  margin: 1rem 0;
+}
+.meals-img img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.meals-body {
+  padding: 1rem;
+}
+.meals-content {
+  height: 200px;
+}
+.meals-content h2 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+.meals-content p {
+  text-align: justify;
+  margin-bottom: 0px;
+}
+.meals-price {
+  display: inline-block;
+  border-radius: 20px;
+  padding: 8px 16px;
+  color: white;
+  font-size: 12px;
+  background-color: #f77f00;
+  margin: 0;
+}
+.meals-actions {
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .meals-wrapper {
+    flex: 0 1 49%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .meals-wrapper {
+    flex: 0 1 24%;
+  }
+  .meals-img img {
+    height: 200px;
+  }
+}
